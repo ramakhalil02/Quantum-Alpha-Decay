@@ -1,39 +1,61 @@
-Quantum Tunneling Simulation
+# Numerical Modeling of Alpha Decay: Quantum Tunneling Through the Coulomb Barrier
 
-⚛️ Project Overview: Computational Quantum Dynamics
+This project contains the computational implementation used to model and investigate the fundamental phenomenon of **quantum tunneling** that governs alpha decay in heavy nuclei.
 
-This project presents a robust numerical simulation demonstrating the phenomenon of quantum tunneling through the Coulomb barrier, a core mechanism governing alpha decay in heavy atomic nuclei like Polonium-212 and Uranium-238.
+The primary objective was to numerically verify the **exponential nature** of the half-life's dependence on the alpha particle's emitted energy, which can vary by **more than 20 orders of magnitude** despite minimal changes in kinetic energy.
 
-This work serves as a practical application of numerical methods to solve the time-independent Schrödinger equation (TISE) across piecewise constant potentials, directly calculating the transmission coefficient and half-life variations for isotopes with slight differences in decay energy.
+---
 
-Key Achievements
+## Table of Contents
 
-Core Physics: Successfully modeled the strong exponential dependence of half-life on emitted alpha particle energy, spanning over 20 orders of magnitude between isotopes.
+* [About The Project](#about-the-project)
+* [Key Technical Achievements & Results](#key-technical-achievements--results)
+* [Technology Stack](#technology-stack)
+* [Getting Started](#getting-started)
+* [Full Project Report & Context](#full-project-report--context)
+* [Contact](#contact)
 
-Numerical Methodology: Implemented a piecewise constant potential approximation to model the complex Coulomb barrier. The TISE was numerically solved across three critical regions (inside the nucleus, under the barrier, and in the free region).
+---
 
-Output Metrics: Calculated the Transmission Coefficient ($T$) and the resulting half-life ($t_{1/2}$) for both ${}^{212}\text{Po}$ and ${}^{238}\text{U}$, demonstrating mastery of quantum mechanics and numerical integration.
+## About The Project
 
-Code Verification: Utilized established boundary conditions to ensure continuity of the wave function ($\psi$) and its derivative ($\psi'$) across all segments.
+This simulation successfully solves the Time-Independent Schrödinger Equation (TISE) across a segmented Coulomb potential. The core challenge addressed is demonstrating the strong, non-linear relationship between a minor variance in alpha particle energy and the massive resulting difference in decay half-life, which spans from nanoseconds to billions of years.
 
-Technology Stack
+The numerical approach models the continuous Coulomb barrier using the **piecewise constant potential approximation** across three discrete regions: inside the nucleus, under the barrier, and in free space.
 
-Language: Python
+---
 
-Libraries: NumPy, SciPy
+## Key Technical Achievements & Results
 
-Advanced matrix manipulation, linear algebra, and complex number handling.
+The solver calculated the tunneling probability for two contrasting isotopes:
 
-Visualization: Matplotlib
+* **Isotopes Modeled:** Polonium-212 ($\text{Po}^{212}$) and Uranium-238 ($\text{U}^{238}$).
+* **Result Validation:** Calculated the **Transmission Coefficient ($T$)** and the corresponding half-lives ($t_{1/2}$) for both isotopes.
+* **Computational Proof:** The simulation demonstrated that the relatively small difference in alpha energy between $\text{Po}^{212}$ and $\text{U}^{238}$ resulted in the wavefunction amplitude decaying by **over 35 orders of magnitude** across the barrier. This quantitatively confirms the vast difference in observed half-lives.
 
-Generation of log-probability density plots to visualize quantum behavior.
+---
 
-Repository Structure
+## Technology Stack
 
-Code: The primary solver script is located in the root directory.
+| Category | Tools & Libraries | Competency Demonstrated |
+| :--- | :--- | :--- |
+| **Language** | Python | Efficient development and handling of complex number mathematics. |
+| **Numerical** | NumPy, SciPy | Advanced array manipulation and solving systems of linear equations for the TISE. |
+| **Visualization** | Matplotlib | Generating high-quality, physics-focused data plots. |
+
+---
+
+## Getting Started
+
+### Execution
+
+To run the simulation and generate the results and visualizations, execute the core solver script:
+
+```bash
+python Alpha_Decay.py 
 
 Report: The full theoretical and methodological details are available in the dedicated documentation folder.
 
 Full Project Report
 
-The complete analysis, including the theoretical framework, derivation of boundary conditions, and detailed results are presented in the report. 
+The complete analysis, including the theoretical framework and detailed results are presented in the report. 
