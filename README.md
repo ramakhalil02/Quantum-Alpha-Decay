@@ -53,9 +53,18 @@ To run the simulation and generate the results and visualizations, execute the c
 
 ```bash
 python Alpha_Decay.py 
+```
+---
 
-Report: The full theoretical and methodological details are available in the dedicated documentation folder.
+## Full Project Report
 
-Full Project Report
+For a complete breakdown of the theoretical derivations and full results, please see the final project report:
 
-The complete analysis, including the theoretical framework and detailed results are presented in the report. 
+[**Full Alpha Decay Project Report (PDF)**](AlphaDecay_report.pdf)
+
+---
+
+## Contact
+
+Rama Khalil
+
