@@ -11,7 +11,7 @@ The primary objective was to numerically verify the **exponential nature** of th
 
 * [About The Project](#about-the-project)
 * [Key Technical Achievements & Results](#key-technical-achievements--results)
-* [Technology Stack](#technology-stack)
+* [Languages and Libraries](#languages-and-libraries)
 * [Getting Started](#getting-started)
 * [Full Project Report & Context](#full-project-report--context)
 * [Contact](#contact)
