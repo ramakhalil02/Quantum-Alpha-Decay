@@ -36,7 +36,7 @@ The solver calculated the tunneling probability for two contrasting isotopes:
 
 ---
 
-## Technology Stack
+## Languages and Libraries
 
 | Category | Tools & Libraries | Competency Demonstrated |
 | :--- | :--- | :--- |
