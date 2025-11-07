@@ -10,8 +10,8 @@ The primary objective was to numerically verify the **exponential nature** of th
 ## Table of Contents
 
 * [About The Project](#about-the-project)
-* [Key Technical Achievements & Results](#key-technical-achievements--results)
 * [Languages and Libraries](#languages-and-libraries)
+* [Key Finding](#key-findings)
 * [Getting Started](#getting-started)
 * [Full Project Report & Context](#full-project-report--context)
 * [Contact](#contact)
@@ -26,16 +26,6 @@ The numerical approach models the continuous Coulomb barrier using the **piecewi
 
 ---
 
-## Key Technical Achievements & Results
-
-The solver calculated the tunneling probability for two contrasting isotopes:
-
-* **Isotopes Modeled:** Polonium-212 ($\text{Po}^{212}$) and Uranium-238 ($\text{U}^{238}$).
-* **Result Validation:** Calculated the **Transmission Coefficient ($T$)** and the corresponding half-lives ($t_{1/2}$) for both isotopes.
-* **Computational Proof:** The simulation demonstrated that the relatively small difference in alpha energy between $\text{Po}^{212}$ and $\text{U}^{238}$ resulted in the wavefunction amplitude decaying by **over 35 orders of magnitude** across the barrier. This quantitatively confirms the vast difference in observed half-lives.
-
----
-
 ## Languages and Libraries
 
 | Category | Tools & Libraries | Competency Demonstrated |
@@ -43,6 +33,16 @@ The solver calculated the tunneling probability for two contrasting isotopes:
 | **Language** | Python | Efficient development and handling of complex number mathematics. |
 | **Numerical** | NumPy, SciPy | Advanced array manipulation and solving systems of linear equations for the TISE. |
 | **Visualization** | Matplotlib | Generating high-quality, physics-focused data plots. |
+
+---
+
+## Key Findings
+
+The solver calculated the tunneling probability for two contrasting isotopes:
+
+* **Isotopes Modeled:** Polonium-212 ($\text{Po}^{212}$) and Uranium-238 ($\text{U}^{238}$).
+* **Result Validation:** Calculated the **Transmission Coefficient ($T$)** and the corresponding half-lives ($t_{1/2}$) for both isotopes.
+* **Computational Proof:** The simulation demonstrated that the relatively small difference in alpha energy between $\text{Po}^{212}$ and $\text{U}^{238}$ resulted in the wavefunction amplitude decaying by **over 35 orders of magnitude** across the barrier. This quantitatively confirms the vast difference in observed half-lives.
 
 ---
 
