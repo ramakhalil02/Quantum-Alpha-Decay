@@ -13,7 +13,7 @@ The primary objective was to numerically verify the **exponential nature** of th
 * [Languages and Libraries](#languages-and-libraries)
 * [Key Finding](#key-findings)
 * [Getting Started](#getting-started)
-* [Full Project Report & Context](#full-project-report--context)
+* [Full Project Report](#full-project-report)
 * [Contact](#contact)
 
 ---
@@ -67,5 +67,9 @@ For a complete breakdown of the theoretical derivations and full results, please
 
 ## Contact
 
-Rama Khalil
+I'm happy to hear your feedback or answer any questions about this project!
+
+**Author** Rama Khalil 
+
+**Email**  rama.khalil.990@gmail.com
 
