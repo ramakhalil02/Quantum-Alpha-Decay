@@ -1,7 +1,8 @@
 # Numerical Modeling of Alpha Decay: Quantum Tunneling Through the Coulomb Barrier
 
-This project contains the computational implementation used to model and investigate the fundamental phenomenon of **quantum tunneling** that governs alpha decay in heavy nuclei.
+This project is a part of independent research and development conducted during my **Master of Science program in Computational Physics**. The entire methodology, analysis, and implementation of all numerical solvers were executed solely by me, and the full work is documented in the accompanying report and code.
 
+The project contains the computational implementation used to model and investigate the fundamental phenomenon of **quantum tunneling** that governs alpha decay in heavy nuclei.
 The primary objective was to numerically verify the **exponential nature** of the half-life's dependence on the alpha particle's emitted energy, which can vary by **more than 20 orders of magnitude** despite minimal changes in kinetic energy.
 
 ---
